@@ -1,6 +1,5 @@
 .navbar {
     padding: 1.5em;
-    background-color: white !important;
 }
 
 .navbarnd-letter {
@@ -29,6 +28,10 @@
 color: #e2e5eb; 
 padding: .5em;
 margin: 0 auto;
+}
+
+.dropdown-menu {
+    background-color: black;
 }
 
 .fa {
@@ -107,9 +110,25 @@ margin: 0 auto;
         width: 100%;
         object-fit: contain;
     }
+    
+    .deals {
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    margin-bottom: 1em;
+    font-size: 1.8rem;
+    color: black;
+    }
+
+    hr {
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 10vw;
+    margin-top: -1.5em;
+    }
 
     .new_footer_area {
-        background: #fbfbfd;
+        background: #121213;
     }
     
     
@@ -126,14 +145,14 @@ margin: 0 auto;
         font-size: 14px;
         font-weight: 300;
         line-height: 20px;
-        color: #7f88a6;
+        color: #e1e4ee;
         padding: 27px 0px;
     }
     .new_footer_top .company_widget p {
         font-size: 16px;
         font-weight: 300;
         line-height: 28px;
-        color: #6a7695;
+        color: #e1e4ee;;
         margin-bottom: 20px;
     }
     .new_footer_top .company_widget .f_subscribe_two .btn_get {
@@ -159,7 +178,7 @@ margin: 0 auto;
     
     
     .new_footer_top .f_widget.about-widget .f_list li a:hover {
-        color: #5e2ced;
+        color: #007BFF;
     }
     .new_footer_top .f_widget.about-widget .f_list li {
         margin-bottom: 11px;
@@ -178,7 +197,7 @@ margin: 0 auto;
         height: 44px;
         line-height: 43px;
         background: transparent;
-        border: 1px solid #e2e2eb;
+        border: 1px solid #e1e4ee;;
         font-size: 24px;
     }
     .f_social_icon a {
@@ -187,7 +206,7 @@ margin: 0 auto;
         border-radius: 50%;
         font-size: 14px;
         line-height: 45px;
-        color: #858da8;
+        color: #e1e4ee;;
         display: inline-block;
         background: #ebeef5;
         text-align: center;
@@ -211,8 +230,8 @@ margin: 0 auto;
     .btn_get_two {
         -webkit-box-shadow: none;
         box-shadow: none;
-        background: #5e2ced;
-        border-color: #5e2ced;
+        background: #007BFF;
+        border-color: #007BFF;
         color: #fff;
     }
     
@@ -231,7 +250,7 @@ margin: 0 auto;
     }
     .new_footer_top .f-title {
         margin-bottom: 30px;
-        color: #263b5e;
+        color: #e1e4ee;;
     }
     .f_600 {
         font-weight: 600;
@@ -243,7 +262,7 @@ margin: 0 auto;
         color: #4b505e;
     }
     .new_footer_top .f_widget.about-widget .f_list li a {
-        color: #6a7695;
+        color: #e1e4ee;;
     }
     
     
@@ -279,7 +298,9 @@ margin: 0 auto;
         animation: myfirst 30s linear infinite;
     }
     
-    
+  .footer-details {
+      line-height: 1.8em;
+  }  
     
     @-moz-keyframes myfirst {
       0% {
