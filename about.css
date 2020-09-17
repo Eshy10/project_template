@@ -1,0 +1,44 @@
+.about-page {
+    background-color: white;
+    color: #000;
+    height: auto;
+    padding-bottom: 20px;
+}
+
+.top-section {
+    display: flex;
+}
+
+.top-section > img {
+    width: 40%;
+    padding: 20px;
+}
+
+.middle-section {
+    display: flex;
+}
+
+
+.dresses {
+    background-image: url("https://images.unsplash.com/photo-1567401893414-76b7b1e5a7a5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 48%;
+    margin: 1%;
+    height: 300px;
+    text-align: center;
+    font-size: 30px;
+    color: red;
+}
+
+.jeans {
+    background-image: url("https://images.unsplash.com/photo-1567401893414-76b7b1e5a7a5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 48%;
+    margin: 1%;
+    height: 300px;
+    text-align: center;
+    font-size: 30px;
+    color: red;
+}

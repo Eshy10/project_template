@@ -1,0 +1,46 @@
+.contact-page {
+    background-color: white;
+    color: #000;
+    height: auto;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.contact-page > button {
+ position: relative;
+ left: 45%;
+ margin-bottom: 40px;
+}
+
+.details, .contact-page > h2 {
+    text-align: center;
+}
+
+.contact-info {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 30px;
+}
+
+.contact-info > div:nth-child(2) {
+    margin-left: 20px;
+}
+
+.contact-form {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 40px;
+}
+
+.contact-input {
+    display: flex;
+    flex-direction: column;
+    padding-right: 20px;
+    width: 25%;
+}
+
+.contact-input > input {
+    padding: 10px;
+    width: 90%;
+    margin-bottom: 10px;
+}
